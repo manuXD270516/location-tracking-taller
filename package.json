@@ -1,0 +1,32 @@
+{
+  "name": "tracking-real-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/startup",
+    "start": "node server/startup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cls-hooked": "^4.2.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.5.0",
+    "sequelize-auto": "^0.8.0",
+    "sequelize-cli": "^6.2.0",
+    "tedious": "^11.0.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

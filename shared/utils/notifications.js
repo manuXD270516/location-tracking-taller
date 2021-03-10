@@ -1,0 +1,6 @@
+module.exports = {
+    OPPORTUNITY_CHANNEL: 'OPPORTUNITY',
+    OPERATION_CHANNEL: 'OPERATION',
+    GLOBAL_CHANNEL: 'GLOBAL',
+    
+};
