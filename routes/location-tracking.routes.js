@@ -8,7 +8,7 @@ router.get('/', LocationTrackingController.getAllLocationsLogs);
 //router.get('/:parentsId', ParentsController.getParentsById);
 
 // API END-POINTS: POST
-router.post('/', LocationTrackingController.registrerLocationLogs);
+router.get('/register', LocationTrackingController.registrerLocationLogs);
 
 // API END-POINTS: PUT
 
